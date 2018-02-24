@@ -4,79 +4,108 @@
 <head>
     <meta charset="UTF-8">
     <title>Rebecca DiFede</title>
-    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Scope+One|Playfair+Display|Abril+Fatface" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css">
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="main.js"></script>
-    <script src="js/scrollmagic/uncompressed/ScrollMagic.js"></script>
-    
+
 </head>
 
 <body>
-    <div class="container">
-        <h1>Rebecca DiFede</h1>
-	<h4>Full-Stack Web Developer</h4>
-	<div class="social">
-		<a id="linkedin" href="https://www.linkedin.com/in/rebecca-difede-38862333/">Linkedin!</a> 
-		<a id="github" href="https://github.com/rdifede">GitHub!</a>
-	</div>
-	
-</div>
 <div class="nav">
 		<ul>
-			<a href="#"><li class="go">Home</li></a>
-			<a href="#"><li class="go">Skills</li></a>
-			<a href="#"><li class="go">Projects</li></a>
-			<a href="#"><li class="go">Contact</li></a>
+			<a href="#home"><li class="go">Home</li></a>
+			<a href="#skills_header" class="go">Skills</a>
+			<a href="#projects"><li class="go">Projects</li></a>
+			<a href="#contact"><li class="go">About</li></a>
 		</ul>
 	</div>
+    <div class="container">
+        <h1 id="home">R</h1>
+        <div class="name">
+	<h2>Rebecca DiFede</h2>
+	<h3>Full-Stack Web Developer</h3>
+	</div>
+	<div class="social">
+		<a id="linkedin" href="https://www.linkedin.com/in/rebecca-difede-38862333/"><img src="./images/linked_in.png" alt=""></a>
+		<a id="github" href="https://github.com/rdifede"><img src="./images/mark-github-256.png" alt=""></a>
+	</div>
+
+</div>
+<div class="space"></div>
 <br />
+<div id="skills_header"></div>
 <div class="main-content">
-	<h2>About Me!</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem tempore maiores facere ipsum consectetur praesentium, id obcaecati eum veritatis mollitia dignissimos officia iure enim magni ex laudantium placeat error quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, ab at eaque maiores, praesentium vero commodi, quod assumenda error cumque natus possimus beatae reiciendis non minus repellendus qui. Voluptates, earum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officia deleniti, natus, consequatur necessitatibus tempore velit perspiciatis quia quisquam ut, quos molestias dolor repellendus est quo labore soluta illum. Dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, voluptate. Officia nemo recusandae libero excepturi qui numquam iure. Quaerat, velit iure dolores unde aliquid, suscipit minima asperiores molestiae non et.
-	</p>
+<div class="skills_header">
+<h3 class="sub_heading">My Skills!</h3>
+</div>
+	<div class="my_skills">
 
+  <ul id="left_skills">
+    <li class="skills">HTML</li>
+  	<li class="skills">CSS</li>
+  	<li class="skills">JavaScript</li>
+  	<li class="skills">jQuery</li>
+  	<li class="skills">Node.js</li>
+    <li class="skills">AWS</li>
 
-<br />
-<hr>
-<br />
-<h2>My Skills!</h2>
-<ul>
-	<li  class="skills">lorem</li>
-	<li  class="skills">lorem</li>
-	<li  class="skills">lorem</li>
-	<li  class="skills">lorem</li>
+  </ul>
+
+<ul class="skrills">
+	<li class="skills">Ruby</li>
+	<li class="skills">Rails</li>
+  <li class="skills">React</li>
+  <li class="skills">ReactNative</li>
+	<li class="skills">PostgreSQL</li>
+  <li class="skills">SQLite</li>
+
 </ul>
-<hr>
+</div>
+<div class="space"></div>
+<div class="space"></div>
 <br />
 <br />
-
-<h2>Projects I've Worked On!</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, unde. Esse, magnam minima. Atque tempore adipisci doloribus saepe reiciendis, minus nemo, accusamus perferendis deleniti debitis provident, dolor, obcaecati dolores repellat.</p>
 <br />
 
-<h4>Project 1</h4>
-<div class="image"><img src="./placeholder.png" alt=""></div>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit fugit adipisci facilis rem perferendis veniam et, velit assumenda optio ad, doloremque. Illum sequi, soluta amet expedita, iusto tempore consequatur iure!</p>
-<br />
-
-<h4>Project 2</h4>
-<div class="image"><img src="./placeholder.png" alt=""></div>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam perspiciatis, nobis dolor nemo suscipit cum quasi illo tenetur ratione debitis asperiores officiis reiciendis repudiandae cupiditate non molestias, saepe dolore quas.</p>
-<br />
-
-<h4>Project 3</h4>
-<div class="image"><img src="./placeholder.png" alt=""></div>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate illo doloribus quas vel quo distinctio ex, fugit dolorum temporibus! Laboriosam, magnam libero unde blanditiis assumenda! A, saepe, magni? Obcaecati, cum.</p>
-
+<h3 class="sub_heading">Projects I've Worked On!</h3>
+<div class="projects">
+<h4>BrunchTime</h4>
+<div class="image"><img src="./images/mimosaIcon7.png"></div>
+<p>BrunchTime is a mobile app built in ReactNative with a Rails backend, that uses information from Yelp's API to help the user find the brunch restaurants in their current or chosen location, save their favorites, and even call an Uber from their current location to the restaurant.</p>
 <br />
 <hr>
+<h4>GitHired</h4>
+<div class="image"><a href="https://git-hired-app.herokuapp.com/"><img src="./images/githired.png" alt=""></a></div>
+<p>GitHired is a Ruby on Rails app that uses GitHub's API and allows users to search for jobs in the technology field, filtered by location and programming language of interest. Users are able to view each job on a separate page, which is complete with a map and, if interested, save the job to their profile as a favorite. Users may also make a list of to-do tasks for each favorited job, with the additional ability to indicate if they have emailed the job, and if the job poster has responded. All favorited jobs and notes may be deleted when no longer desired.</p>
+<br />
+<hr>
+<h4>Becardy</h4>
+<div><a href="https://github.com/rdifede/Becardy---A-Trivia-Game"><img id="project1" src="./images/becardy.png" alt=""></a></div>
+<p>A trivia game built with HTML, CSS and jQuery, based on the popular game show Jeopardy. It has three levels, regular, double and final, and allows the players to select questions from different categories to answer. Each question will pop up in a modal with an input box for the response, and at the end of each round the player will receive their score, and a link to either proceed to the next round, or try again.</p>
 
-<h2>Get In Touch With Me!</h2>
-<ul>
-	<li class="contact">Email: rebecca.difede@gmail.com</li>
-	<li class="contact">Phone: (908) 868-2905</li>
-</ul>
+<p>Important App Info:
+Though this page is responsive to smaller screen sizes, due to the nature of the game board and modals, it is best played with the browser window at 800px or larger.</p>
+<br />
+<hr>
+<h4>GoTaco!</h4>
+<div class="image"><a href="https://gorgeous-great-basin-45336.herokuapp.com/"><img src="./images/gotaco.png" alt=""></a></div>
+<p>GoTaco! is an app built in Node.js that uses Google Places API to allow users to search for the taco restaurants closest to their current location, with the ability to also type in a location.</p>
+</div>
+<br />
+<hr></br>
+<div class="contact_header" id="contact">
+<h3 class="sub_heading">About Me!</h3>
+</div>
+<div class="about_contact">
+  <p id="about">I'm a former Jill-of-all-trades who decided to become a web developer. I have a fondness for relational databases and clean code, and am constantly looking for new ways to think outside the flexbox. In my spare time, I can be found with a cup of strong coffee writing poetry or binge watching The Office.
+  </p>
+  <ul>
+  	<li class="contact">Email:
+      <a class="email" href="mailto:rebecca.difede@gmail.com">rebecca.difede@gmail.com</a></li>
+  	<li class="contact">Phone: (908) 868-2905</li>
+  </ul>
+</div>
+
 
 </div>
 </body>

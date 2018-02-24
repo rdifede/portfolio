@@ -1,136 +1,292 @@
 body {
-	background-color: grey;
-	font-family: 'Patrick Hand SC', cursive;
-	/*display: flex;*/
-	height: 100vh;
-	width: 100vw;
-	
-
-
+    background-color: #535353;
+    font-family: 'Scope One', serif;
+    height: 100vh;
+    width: 100vw;
 }
 
-.container {
-	margin: 0 auto;
-	align-items: center;
-	justify-content: center;
-}
-
-.main-content {
-	margin: 0 auto;
-	width: 500px;
-
-
-}
-
-.image {
-	
-	margin: 0 auto;
-	width: 400px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 
 h1 {
-
-	font-size: 60px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+
 h2 {
-	font-size: 40px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 20px;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+}
+
+h3 {
+    font-size: 35px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+
 }
 
 h4 {
-	font-size: 30px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+    padding-bottom: 20px;
+}
+
+hr {
+    border-color: papayawhip;
+}
+
+p {
+	font-size: 17px;
+	text-align: center;
+}
+
+.my_skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    width: 450px;
+
+
+}
+
+/* #about {
+    margin-right: 20px;
+    text-align: center;
+} */
+
+.about_class {
+  align-content: center;
+}
+
+#left_skills {
+  margin-right: 30px;
+}
+
+.skrills {
+    border-left: 3px solid black;
+}
+
+.skills_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.break {
+    height: 200px;
+}
+
+.container {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    max-height: 700px;
+    max-width: 500px;
+}
+
+.main-content {
+    margin: 0 auto;
+    width: 500px;
+    color: #F5F5F5;
+    font-family: 'Playfair Display', serif;
+}
+
+#home {
+    background-color: rgba(129,129,129, 0.7);
+    max-width: 130px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 50%;
+    border-width: thin;
+    border-color: #535353;
+    border-style: solid;
+    box-shadow: 5px 3px 5px #888888;
+}
+
+.name {
+    margin-bottom: 50px;
+
+}
+
+
+.image {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .social {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
 
+.social img {
+    height: 100px;
+    width: 100px;
 }
 
 .social a {
-	text-decoration: none;
-	color: inherit;
-	font-size: 25px;
-	padding: 0 10px 20px 0;	
+    text-decoration: none;
+    color: inherit;
+    padding: 0 10px 5px 0;
+}
 
+.sub_heading {
+    font-family: 'Scope One', serif;
+    margin: 0 auto;
 }
 
 #linkedin:hover {
-	text-decoration: underline;
-
+    text-decoration: underline;
 }
 
 #github:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .nav {
-    margin: 0;
-    padding: 0;
-    background-color: dimgrey;
-    height: 100vh; 
-    width: 10%;
-    position: fixed; 
-    overflow: auto; 
+    /* background-color: #E0E0E0; */
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    display: block;
+    /* justify-content: center; */
+    /* align-items: center; */
     text-decoration: none;
+    color: #E0E0E0;
+    overflow: auto;
+    /* border-color: inherit; */
+    /* border-radius: 25px; */
 
 }
 
 .nav a {
-	list-style-type: none;
-	text-decoration: none;
+    list-style-type: none;
+    text-decoration: none;
     display: block;
     margin: 0 auto;
-    color: #000;
-    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: inherit;
     font-size: 20px;
     font-weight: bold;
-    
+}
+
+.nav ul{
+	padding: 0;
+}
+
+.go {
+	text-align: center;
 }
 
 
 .nav a:hover {
-    color: white;
+    color: black;
     display: block;
+    background-color: white;
+}
+
+.tech {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*font-size: 20px;*/
 }
 
 .skills {
-	list-style-type: none;
-	text-decoration: none;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
 }
 
 .contact {
-
-	list-style-type: none;
-	text-decoration: none;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 20px;
 }
 
+.email {
+  text-decoration: none;
+  color: inherit;
+  padding-left: 5px;
+}
 
+#project1 {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+}
 
+.space {
+	height: 150px;
+    width: 150px;
+}
 
+#skills_header {
+  height: 90px;
+  width: 80px;
+}
+
+.contact_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 35px;
+  padding-top: 20px; */
+}
+
+@media screen and (min-width: 1281px) {
+    .nav ul {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .nav li a {
+        float: top;
+        padding: 15px;
+    }
+    /* div.container{margin-left: 0;} */
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .nav li a {
+        text-align: center;
+        float: none;
+    }
+}

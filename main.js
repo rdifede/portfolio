@@ -1,17 +1,10 @@
-$(function(){
-console.log("jquery up!");
+// $(function(){
+// console.log("jquery up!");
 
-// const controller = new ScrollMagic.Controller();
+// window.sr = ScrollReveal({reset: true});
+// sr.reveal('#about');
+// sr.reveal('#skills');
+// sr.reveal('#projects');
+// sr.reveal('#contact');
 
-// // create a scene
-// new ScrollMagic.Scene({
-// 		duration: 100,	// the scene should last for a scroll distance of 100px
-// 		offset: 50		// start this scene after scrolling for 50px
-// 	})
-// 	.setPin("#my-sticky-element") // pins the element for the the scene's duration
-// 	.addTo(controller); // assign the scene to the controller
-
-
-
-
-});
+// });
